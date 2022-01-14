@@ -102,3 +102,27 @@
    color: rgba(224, 44, 109, 0.87);
 
 }
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;    
+    background-color: #0A0826;
+    
+}
+.foo-info{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.foo-icon{
+    font-size: 24px;
+    margin:0 30px;
+    color: honeydew;
+}
