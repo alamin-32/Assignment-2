@@ -1,0 +1,33 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.button{
+    font-size: 16px;
+    color: aliceblue;
+    padding: 10px 24px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+}
+.container{
+    margin:0 auto;
+    width: 80%;
+}
+
+#showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show-box{
+    width: 50%;
+}
+.show-box h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.show-box img{
+    width: 75%;
+    margin-left: 50px;
+}
