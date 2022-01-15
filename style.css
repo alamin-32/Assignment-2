@@ -138,9 +138,12 @@ flex-direction: column;
     font-weight: 600;
     color: #787885;
 }
-.form input{
-    padding: 8px 56px;
-
+.form-info input{
+  padding: 8px 23px;
+  border-radius: 7px;
+}
+textarea{
+    border-radius: 7px;
 }
 .form button{
     margin: 10px 0;
@@ -273,7 +276,7 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 20px;
     
-    }.form ,footer{
+    }.form-info,footer{
         width: 100%;
     }
     .form h1 {
